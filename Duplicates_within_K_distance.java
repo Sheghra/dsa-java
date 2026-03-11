@@ -19,9 +19,9 @@ Explanation: There is no duplicate element in arr[].
 public class Duplicates_within_K_distance {
     public static void main(String[] args) {
         {
-            //int arr[]={1, 2, 3, 4, 1, 2, 3, 4},k=3;
+            int arr[]={1, 2, 3, 4, 0, 2, 3, 4},k=3;
             //int arr[]={1, 2, 3, 1, 4, 5},k=3;
-            int arr[]={1, 2, 3, 4, 5},k=3;
+            //int arr[]={1, 2, 3, 4, 5},k=3;
             int val=0;Boolean flag=false;
 
             for(int i=0;i<arr.length;i++)
@@ -41,10 +41,9 @@ public class Duplicates_within_K_distance {
                         break;
                     }
                 }
-                System.out.println("No");
-                break;
-                
             }
+            System.out.println("No");
+        
         }
     }
 }
