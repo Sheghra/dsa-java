@@ -14,7 +14,6 @@ public class array_reverse {
             //int arr[]={1,4,3,2,6,5}; passed
             int arr[] = {4, 5, 1, 2};
             int arr2[]=new int[arr.length];
-            int count=1;
             for(int i=arr.length-1;i>=0;i--)
             {
                 arr2[Math.abs(i-(arr.length-1))]=arr[i];
